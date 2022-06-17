@@ -7,17 +7,18 @@ using System.Threading.Tasks;
 
 namespace LGPD_MDE.Entities.Generated
 {
-    [Table(name: "usuario")]
     public class Usuario
     {
         public int Id { get; set; }
         public string Nome { get; set; }
+
         public string Email { get; set; }
-        public string Funcao { get; set; }
+
+        public DateTime DataNascimento { get; set; }
+
         public string Telefone { get; set; }
-        public string UsuarioP { get; set; }
-        public string Senha { get; set; }
-        public bool Bloqueado { get; set; }
+
+        public string Descricao { get; set; }
 
     }
 }

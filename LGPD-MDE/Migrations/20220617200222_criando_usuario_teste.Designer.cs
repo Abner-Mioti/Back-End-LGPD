@@ -11,8 +11,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LGPD_MDE.Migrations
 {
     [DbContext(typeof(LgpdDbContext))]
-    [Migration("20220606174804_usuario")]
-    partial class usuario
+    [Migration("20220617200222_criando_usuario_teste")]
+    partial class criando_usuario_teste
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -27,50 +27,33 @@ namespace LGPD_MDE.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<bool>("Bloqueado")
-                        .HasColumnType("tinyint(1)");
+                    b.Property<DateTime>("DataNascimento")
+                        .HasColumnType("datetime(6)")
+                        .HasColumnName("DATA_NASCIMENTO");
 
-                    b.Property<string>("CreatedBy")
+                    b.Property<string>("Descricao")
                         .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("CreatedDate")
-                        .HasColumnType("datetime(6)");
+                        .HasColumnType("longtext")
+                        .HasColumnName("DESCRICAO");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Funcao")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasColumnName("EMAIL");
 
                     b.Property<string>("Nome")
                         .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("Senha")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasColumnName("NOME");
 
                     b.Property<string>("Telefone")
                         .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<string>("UpdatedBy")
-                        .IsRequired()
-                        .HasColumnType("longtext");
-
-                    b.Property<DateTime>("UpdatedDate")
-                        .HasColumnType("datetime(6)");
-
-                    b.Property<string>("UsuarioP")
-                        .IsRequired()
-                        .HasColumnType("longtext");
+                        .HasColumnType("longtext")
+                        .HasColumnName("TELEFONE");
 
                     b.HasKey("Id");
 
-                    b.ToTable("user");
+                    b.ToTable("USUARIO", (string)null);
                 });
 #pragma warning restore 612, 618
         }

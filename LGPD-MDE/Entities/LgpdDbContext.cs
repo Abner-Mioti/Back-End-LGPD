@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using LGPD.MDE.Mappings;
 using LGPD_MDE.Entities.Generated;
 using Microsoft.EntityFrameworkCore;
 
@@ -15,14 +16,11 @@ namespace LGPD_MDE.Entities
         {
         }
 
-        public void AddEntity(object entity)
-        {
-            base.Add(entity);
-        }
         #endregion
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
+            modelBuilder.ApplyConfiguration(new UsuarioMap());
             base.OnModelCreating(modelBuilder);
         }
         #region DbSets

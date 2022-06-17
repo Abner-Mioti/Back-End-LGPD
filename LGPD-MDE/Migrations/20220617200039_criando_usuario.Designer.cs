@@ -3,6 +3,7 @@ using System;
 using LGPD_MDE.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace LGPD_MDE.Migrations
 {
     [DbContext(typeof(LgpdDbContext))]
-    partial class LgpdDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220617200039_criando_usuario")]
+    partial class criando_usuario
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -28,11 +30,6 @@ namespace LGPD_MDE.Migrations
                     b.Property<DateTime>("DataNascimento")
                         .HasColumnType("datetime(6)")
                         .HasColumnName("DATA_NASCIMENTO");
-
-                    b.Property<string>("Descricao")
-                        .IsRequired()
-                        .HasColumnType("longtext")
-                        .HasColumnName("DESCRICAO");
 
                     b.Property<string>("Email")
                         .IsRequired()
