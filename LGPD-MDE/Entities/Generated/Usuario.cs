@@ -20,5 +20,7 @@ namespace LGPD_MDE.Entities.Generated
 
         public string Descricao { get; set; }
 
+
+
     }
 }

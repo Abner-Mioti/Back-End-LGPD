@@ -33,6 +33,7 @@ namespace LGPD.MDE.Mappings
             builder.Property(x => x.Descricao)
             .HasColumnName("DESCRICAO");
 
+
         }    
     }
 }

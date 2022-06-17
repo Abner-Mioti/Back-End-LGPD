@@ -1565,6 +1565,7 @@
           "Microsoft.EntityFrameworkCore.Proxies": "6.0.5",
           "Microsoft.Extensions.Caching.SqlServer": "6.0.5",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "6.0.1",
+          "MySql.EntityFrameworkCore": "6.0.1",
           "Pomelo.EntityFrameworkCore.MySql": "6.0.1"
         },
         "runtime": {
