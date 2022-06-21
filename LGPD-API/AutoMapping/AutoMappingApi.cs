@@ -8,7 +8,7 @@ namespace LGPD_API.AutoMapping
     {
         public AutoMappingApi()
         {
-            CreateMap<UsuarioDto, UsuarioModel>().ReverseMap();
+            //CreateMap<UsuarioDto, UsuarioModel>().ReverseMap();
         }
 
     }

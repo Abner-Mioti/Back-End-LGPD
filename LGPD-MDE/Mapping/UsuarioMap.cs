@@ -18,21 +18,33 @@ namespace LGPD.MDE.Mappings
 
             builder.HasKey(x => x.Id);
 
-            builder.Property(x => x.Nome)
-            .HasColumnName("NOME");
+            builder.Property(x => x.Name)
+            .HasColumnType("VARCHAR")
+            .HasColumnName("NAME").HasMaxLength(150);
 
             builder.Property(x => x.Email)
-            .HasColumnName("EMAIL");
+            .HasColumnType("VARCHAR")
+            .HasColumnName("EMAIL").HasMaxLength(100);
 
-            builder.Property(x => x.DataNascimento)
-            .HasColumnName("DATA_NASCIMENTO");
+            builder.Property(x => x.Function)
+            .HasColumnType("VARCHAR")
+            .HasColumnName("FUNCTION").HasMaxLength(100);
 
-            builder.Property(x => x.Telefone)
-            .HasColumnName("TELEFONE");
+            builder.Property(x => x.Mobile)
+            .HasColumnType("VARCHAR")
+            .HasColumnName("MOBILE").HasMaxLength(100);
 
-            builder.Property(x => x.Descricao)
-            .HasColumnName("DESCRICAO");
+            builder.Property(x => x.User)
+           .HasColumnType("VARCHAR")
+           .HasColumnName("USER").HasMaxLength(100);
 
+            builder.Property(x => x.Password)
+           .HasColumnType("VARCHAR")
+           .HasColumnName("PASSWORD").HasMaxLength(60);
+
+            builder.Property(x => x.IsActive)
+           .HasColumnType("BIT")
+           .HasColumnName("IS_ACTIVE");
 
         }    
     }
