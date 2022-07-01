@@ -2303,7 +2303,7 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "LGPD-MDE/1.0.0": {
+      "LGPD_MDE/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2316,10 +2316,10 @@
           "Pomelo.EntityFrameworkCore.MySql": "6.0.1"
         },
         "compile": {
-          "bin/placeholder/LGPD-MDE.dll": {}
+          "bin/placeholder/LGPD_MDE.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-MDE.dll": {}
+          "bin/placeholder/LGPD_MDE.dll": {}
         }
       }
     }
@@ -7828,15 +7828,15 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "LGPD-MDE/1.0.0": {
+    "LGPD_MDE/1.0.0": {
       "type": "project",
-      "path": "../LGPD-MDE/LGPD-MDE.csproj",
-      "msbuildProject": "../LGPD-MDE/LGPD-MDE.csproj"
+      "path": "../LGPD-MDE/LGPD_MDE.csproj",
+      "msbuildProject": "../LGPD-MDE/LGPD_MDE.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LGPD-MDE >= 1.0.0"
+      "LGPD_MDE >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -7847,9 +7847,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD-BLL-Infra.csproj",
-      "projectName": "LGPD-BLL-Infra",
-      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD-BLL-Infra.csproj",
+      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj",
+      "projectName": "LGPD_BLL_Infra",
+      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj",
       "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\obj\\",
       "projectStyle": "PackageReference",
@@ -7873,8 +7873,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD-MDE.csproj": {
-              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD-MDE.csproj"
+            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD_MDE.csproj": {
+              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD_MDE.csproj"
             }
           }
         }

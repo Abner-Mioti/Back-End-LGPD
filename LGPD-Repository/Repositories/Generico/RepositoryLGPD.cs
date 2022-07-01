@@ -1,10 +1,5 @@
 ﻿using LGPD_MDE.Entities;
 using LGPD_Repository_Infra.Repositories.Interface.Generico;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_Repository.Repositories.Generico
 {
@@ -94,7 +89,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// Obtem todas as entidades do banco, ATENÇÃO: não utilize esse método para tabelas de regras de negócio, somente para tabelas de domínio.
         /// </summary>
         /// <returns>Todas as entidades da tabela do banco.</returns>
-        public Task<IEnumerable<TEntity>> ObterTodos()
+        public Task<IEnumerable<TEntity>> GetAll()
         {
             return Task.Run(() => _ctx.Set<TEntity>().AsEnumerable());
         }

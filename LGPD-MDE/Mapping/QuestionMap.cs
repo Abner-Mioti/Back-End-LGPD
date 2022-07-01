@@ -1,11 +1,6 @@
 ﻿using LGPD_MDE.Entities.Generated;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_MDE.Mapping
 {
@@ -18,19 +13,19 @@ namespace LGPD_MDE.Mapping
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.AreaId)
-            .HasColumnType("INTEGER")
+            .HasColumnType("INT")
             .HasColumnName("AREA_ID").IsRequired(true);
 
             builder.Property(x => x.QuestionCategoryId)
-            .HasColumnType("INTEGER")
+            .HasColumnType("INT")
             .HasColumnName("QUESTION_CATEGORY_ID").IsRequired(true);
 
             builder.Property(x => x.ImpactId)
-            .HasColumnType("INTEGER")
+            .HasColumnType("INT")
             .HasColumnName("IMPACT_ID").IsRequired(true);
 
             builder.Property(x => x.ProbabilityId)
-            .HasColumnType("INTEGER")
+            .HasColumnType("INT")
             .HasColumnName("PROBABILITY_ID").IsRequired(true);
 
             builder.Property(x => x.Wording)
@@ -38,7 +33,7 @@ namespace LGPD_MDE.Mapping
             .HasColumnName("WORDING").HasMaxLength(100);
 
             builder.Property(x => x.Reply)
-            .HasColumnType("INTEGER")
+            .HasColumnType("INT")
             .HasColumnName("REPLY");
 
             builder.Property(x => x.RepliedStatus)
@@ -50,28 +45,14 @@ namespace LGPD_MDE.Mapping
            .HasColumnName("SUITABLE_STATUS");
 
             builder.Property(x => x.Effect)
-           .HasColumnType("VARCHAR")
-           .HasColumnName("EFFECT").HasMaxLength(100);
+           .HasColumnType("VARCHAR(100)")
+           .HasColumnName("EFFECT");
 
             builder.Property(x => x.Action)
-           .HasColumnType("VARCHAR")
+           .HasColumnType("VARCHAR(100)")
            .HasColumnName("ACTION");
 
-             builder.HasOne(y => y.Area)
-            .WithMany()
-            .HasForeignKey(t => t.AreaId);
 
-            builder.HasOne(y => y.QuestionCategory)
-           .WithMany()
-           .HasForeignKey(t => t.QuestionCategoryId);
-
-            builder.HasOne(y => y.Impact)
-            .WithMany()
-            .HasForeignKey(t => t.ImpactId);
-
-            builder.HasOne(y => y.Probability)
-           .WithMany()
-           .HasForeignKey(t => t.ProbabilityId);
         }
 
     }

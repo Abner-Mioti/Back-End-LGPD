@@ -14,7 +14,7 @@ namespace LGPD_Repository_Infra.Repositories.Interface.Generico
         Task<int> Remover(TEntity entidade);
         Task<int> RemoverTodos(IEnumerable<TEntity> entidades);
         Task<int> Atualizar(TEntity entidade);
-        Task<IEnumerable<TEntity>> ObterTodos();
+        Task<IEnumerable<TEntity>> GetAll();
         Task<int> AtualizarTodos(IEnumerable<TEntity> entidades);
 
     }

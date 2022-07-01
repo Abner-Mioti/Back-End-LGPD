@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ZQXOdH2SHxJDk/viIf5R92mI1+Z3uFZ3aeuijSYOdrtAKxc8Us4gu1yMULlISQK/I31N5bTnVkHPL6XLEudwfQ==",
+  "dgSpecHash": "H4C8V1XE8snFgBe5Z/gPyQeyCF/J3Ja+tA2PlIrDDqjZOYU3mhgoxzYb0BF+bkuGWmLOMW7S7qMLgysHCrL17w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD.BLL\\LGPD-BLL.csproj",
+  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD.BLL\\LGPD_BLL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abner.mioti\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\abner.mioti\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",

@@ -1,10 +1,8 @@
-﻿using System;
-
-namespace LGPD_MDE.Entities.Generated
+﻿namespace LGPD_MDE.Entities.Generated
 {
-    public class Entity 
-    { 
-       public int Id { get; set; }
+    public class Entity
+    {
+        public int Id { get; set; }
 
         public string CreatedBy { get; set; }
 

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using LGPD.MDE.Mappings;
+﻿using LGPD.MDE.Mappings;
 using LGPD_MDE.Entities.Generated;
 using LGPD_MDE.Mapping;
 using Microsoft.EntityFrameworkCore;
@@ -33,6 +28,7 @@ namespace LGPD_MDE.Entities
             modelBuilder.ApplyConfiguration(new FieldMap());
             modelBuilder.ApplyConfiguration(new EnterpriseCategoryMap());
             modelBuilder.ApplyConfiguration(new ReportPeriodMap());
+            modelBuilder.ApplyConfiguration(new ExceptionsMap());
 
             base.OnModelCreating(modelBuilder);
         }
@@ -50,6 +46,9 @@ namespace LGPD_MDE.Entities
         public DbSet<Field> Field { get; set; }
         public DbSet<EnterpriseCategory> EnterpriseCategory { get; set; }
         public DbSet<ReportPeriod> ReportPeriod { get; set; }
+
+        public DbSet<Exceptions> Exceptions { get; set; }
+
 
         #endregion
 

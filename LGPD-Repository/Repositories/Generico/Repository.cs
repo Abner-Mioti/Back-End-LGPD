@@ -1,11 +1,6 @@
 ﻿using LGPD_MDE.Entities;
 using LGPD_Repository_Infra.Repositories.Interface.Generico;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_Repository.Repositories.Generico
 {

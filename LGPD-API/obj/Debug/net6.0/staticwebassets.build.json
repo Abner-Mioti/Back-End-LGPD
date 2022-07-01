@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "TTWmFH/t4LuhqMY7k+uf5oT6naW2E5ENtuV34SkqON4=",
-  "Source": "LGPD-API",
-  "BasePath": "_content/LGPD-API",
+  "Hash": "bIn03R+nFci7hUyGLiYQfPWnmES+kStgtX2ELno8H+s=",
+  "Source": "LGPD_API",
+  "BasePath": "_content/LGPD_API",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],

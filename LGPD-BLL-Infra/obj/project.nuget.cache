@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PKpd6MTPJsCwpTBTVupAYLWlVv5VkehUaNh7yPlTno8HKHwsKljFkCkxK0k87e1GvYWmthyCPY3ndTylJm3AZQ==",
+  "dgSpecHash": "7A7aWaZot5agbJaSzvQCu3EBlJ66JbMLqVfOGLJ/iDD7Z9rHdoiT/sUqwG8BLX2XYTNC0c9OYdwEDYO5USDpIw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD-BLL-Infra.csproj",
+  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abner.mioti\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\abner.mioti\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

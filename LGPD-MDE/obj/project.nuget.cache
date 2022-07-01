@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CBFRH5FThdZiDkU9dNOonc/lhBwlq0cJINnuof5ufwzujr9wHt3+vr6sJnmCR+5Co0XzswHOVjQbJOa3sxWdGw==",
+  "dgSpecHash": "bP18KQzDzcSR7v92EKh4i1KCRSJQWJvg7PuE5eCaNiKVPycnmt9ygsszXf7e+nIhr6dJjL6zc57NtRkeMDsS/w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD-MDE.csproj",
+  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD_MDE.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abner.mioti\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\abner.mioti\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",

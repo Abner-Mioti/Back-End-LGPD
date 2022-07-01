@@ -2458,13 +2458,13 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
-      "LGPD-BLL/1.0.0": {
+      "LGPD_BLL/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "LGPD-BLL-Infra": "1.0.0",
-          "LGPD-Repository-Infra": "1.0.0",
+          "LGPD_BLL_Infra": "1.0.0",
+          "LGPD_Repository-Infra": "1.0.0",
           "Microsoft.AspNetCore.Http": "2.2.2",
           "Microsoft.Extensions.Configuration.Abstractions": "6.0.0",
           "Microsoft.Extensions.Configuration.Binder": "6.0.0",
@@ -2472,26 +2472,26 @@
           "System.IdentityModel.Tokens.Jwt": "6.18.0"
         },
         "compile": {
-          "bin/placeholder/LGPD-BLL.dll": {}
+          "bin/placeholder/LGPD_BLL.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-BLL.dll": {}
+          "bin/placeholder/LGPD_BLL.dll": {}
         }
       },
-      "LGPD-BLL-Infra/1.0.0": {
+      "LGPD_BLL_Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "LGPD-MDE": "1.0.0"
+          "LGPD_MDE": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/LGPD-BLL-Infra.dll": {}
+          "bin/placeholder/LGPD_BLL_Infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-BLL-Infra.dll": {}
+          "bin/placeholder/LGPD_BLL_Infra.dll": {}
         }
       },
-      "LGPD-MDE/1.0.0": {
+      "LGPD_MDE/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
@@ -2504,42 +2504,42 @@
           "Pomelo.EntityFrameworkCore.MySql": "6.0.1"
         },
         "compile": {
-          "bin/placeholder/LGPD-MDE.dll": {}
+          "bin/placeholder/LGPD_MDE.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-MDE.dll": {}
+          "bin/placeholder/LGPD_MDE.dll": {}
         }
       },
-      "LGPD-Repository/1.0.0": {
+      "LGPD_Repository/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
           "AutoMapper": "11.0.1",
-          "LGPD-BLL": "1.0.0",
-          "LGPD-MDE": "1.0.0",
-          "LGPD-Repository-Infra": "1.0.0",
+          "LGPD_BLL": "1.0.0",
+          "LGPD_MDE": "1.0.0",
+          "LGPD_Repository-Infra": "1.0.0",
           "Microsoft.EntityFrameworkCore": "6.0.5",
           "Microsoft.EntityFrameworkCore.Relational": "6.0.5",
           "MySql.EntityFrameworkCore": "6.0.1"
         },
         "compile": {
-          "bin/placeholder/LGPD-Repository.dll": {}
+          "bin/placeholder/LGPD_Repository.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-Repository.dll": {}
+          "bin/placeholder/LGPD_Repository.dll": {}
         }
       },
-      "LGPD-Repository-Infra/1.0.0": {
+      "LGPD_Repository-Infra/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "LGPD-MDE": "1.0.0"
+          "LGPD_MDE": "1.0.0"
         },
         "compile": {
-          "bin/placeholder/LGPD-Repository-Infra.dll": {}
+          "bin/placeholder/LGPD_Repository-Infra.dll": {}
         },
         "runtime": {
-          "bin/placeholder/LGPD-Repository-Infra.dll": {}
+          "bin/placeholder/LGPD_Repository-Infra.dll": {}
         }
       }
     }
@@ -8310,35 +8310,35 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
-    "LGPD-BLL/1.0.0": {
+    "LGPD_BLL/1.0.0": {
       "type": "project",
-      "path": "../LGPD.BLL/LGPD-BLL.csproj",
-      "msbuildProject": "../LGPD.BLL/LGPD-BLL.csproj"
+      "path": "../LGPD.BLL/LGPD_BLL.csproj",
+      "msbuildProject": "../LGPD.BLL/LGPD_BLL.csproj"
     },
-    "LGPD-BLL-Infra/1.0.0": {
+    "LGPD_BLL_Infra/1.0.0": {
       "type": "project",
-      "path": "../LGPD-BLL-Infra/LGPD-BLL-Infra.csproj",
-      "msbuildProject": "../LGPD-BLL-Infra/LGPD-BLL-Infra.csproj"
+      "path": "../LGPD-BLL-Infra/LGPD_BLL_Infra.csproj",
+      "msbuildProject": "../LGPD-BLL-Infra/LGPD_BLL_Infra.csproj"
     },
-    "LGPD-MDE/1.0.0": {
+    "LGPD_MDE/1.0.0": {
       "type": "project",
-      "path": "../LGPD-MDE/LGPD-MDE.csproj",
-      "msbuildProject": "../LGPD-MDE/LGPD-MDE.csproj"
+      "path": "../LGPD-MDE/LGPD_MDE.csproj",
+      "msbuildProject": "../LGPD-MDE/LGPD_MDE.csproj"
     },
-    "LGPD-Repository/1.0.0": {
+    "LGPD_Repository/1.0.0": {
       "type": "project",
-      "path": "../LGPD-Repository/LGPD-Repository.csproj",
-      "msbuildProject": "../LGPD-Repository/LGPD-Repository.csproj"
+      "path": "../LGPD-Repository/LGPD_Repository.csproj",
+      "msbuildProject": "../LGPD-Repository/LGPD_Repository.csproj"
     },
-    "LGPD-Repository-Infra/1.0.0": {
+    "LGPD_Repository-Infra/1.0.0": {
       "type": "project",
-      "path": "../LGPD-Repository-Infra/LGPD-Repository-Infra.csproj",
-      "msbuildProject": "../LGPD-Repository-Infra/LGPD-Repository-Infra.csproj"
+      "path": "../LGPD-Repository-Infra/LGPD_Repository-Infra.csproj",
+      "msbuildProject": "../LGPD-Repository-Infra/LGPD_Repository-Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "LGPD-Repository >= 1.0.0"
+      "LGPD_Repository >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -8349,9 +8349,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD-IoC.csproj",
-      "projectName": "LGPD-IoC",
-      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD-IoC.csproj",
+      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD_IoC.csproj",
+      "projectName": "LGPD_IoC",
+      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD_IoC.csproj",
       "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\obj\\",
       "projectStyle": "PackageReference",
@@ -8375,8 +8375,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD-Repository.csproj": {
-              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD-Repository.csproj"
+            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD_Repository.csproj": {
+              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD_Repository.csproj"
             }
           }
         }

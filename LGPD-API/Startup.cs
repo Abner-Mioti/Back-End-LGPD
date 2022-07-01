@@ -1,4 +1,7 @@
-﻿using LGPD_API.Infra.Extensions;
+﻿using AutoMapper;
+using LGPD_API.AutoMapping;
+using LGPD_API.Infra.Extensions;
+using LGPD_BLL.AutoMapping;
 using LGPD_IoC;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Microsoft.OpenApi.Models;
@@ -30,6 +33,17 @@ namespace LGPD_API
             services.AddMvc();
             services.TryAddSingleton<IHttpContextAccessor, HttpContextAccessor>();
 
+            var mapConf = new MapperConfiguration(x =>
+            {
+                x.AddProfile(new AutoMappingApi());//model <-> DTO
+                x.AddProfile(new AutoMappingBLL());//DTO <-> entity
+            });
+
+            IMapper mapper = mapConf.CreateMapper();
+            services.AddSingleton(mapper);
+
+
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc(Configuration["Application:Version"], new OpenApiInfo { Title = Configuration["Application:Title"], Version = Configuration["Application:Version"] });
@@ -57,6 +71,7 @@ namespace LGPD_API
                     }
                 });
             });
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -75,6 +90,7 @@ namespace LGPD_API
                 c.SwaggerEndpoint("/swagger/v1/swagger.json", Configuration["Application:Title"]);
             });
         }
+
     }
 
     public interface IStartup

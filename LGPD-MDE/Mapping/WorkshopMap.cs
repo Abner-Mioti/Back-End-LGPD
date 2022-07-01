@@ -1,11 +1,6 @@
 ﻿using LGPD_MDE.Entities.Generated;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_MDE.Mapping
 {
@@ -18,12 +13,12 @@ namespace LGPD_MDE.Mapping
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.MeetingLink)
-            .HasColumnType("VARCHAR")
-            .HasColumnName("MEETING_LINK").HasMaxLength(150);
+            .HasColumnType("VARCHAR(100)")
+            .HasColumnName("MEETING_LINK");
 
             builder.Property(x => x.Date)
-            .HasColumnType("DATE")
-            .HasColumnName("DATE").HasMaxLength(100);
+            .HasColumnType("DATETIME")
+            .HasColumnName("DATE");
 
         }
 

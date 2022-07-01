@@ -7923,9 +7923,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD-MDE.csproj",
-      "projectName": "LGPD-MDE",
-      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD-MDE.csproj",
+      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD_MDE.csproj",
+      "projectName": "LGPD_MDE",
+      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\LGPD_MDE.csproj",
       "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-MDE\\obj\\",
       "projectStyle": "PackageReference",

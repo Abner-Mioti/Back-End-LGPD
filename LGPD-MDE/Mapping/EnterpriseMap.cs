@@ -1,11 +1,6 @@
 ﻿using LGPD_MDE.Entities.Generated;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_MDE.Mapping
 {
@@ -18,40 +13,44 @@ namespace LGPD_MDE.Mapping
             builder.HasKey(x => x.Id);
 
             builder.Property(x => x.QuestionId)
-           .HasColumnType("INTEGER")
+           .HasColumnType("INT")
            .HasColumnName("QUESTION_ID").IsRequired(true);
 
             builder.Property(x => x.FieldId)
-           .HasColumnType("INTEGER")
+           .HasColumnType("INT")
            .HasColumnName("FIELD_ID").IsRequired(true);
 
             builder.Property(x => x.EnterpriseCategoryId)
-           .HasColumnType("INTEGER")
+           .HasColumnType("INT")
            .HasColumnName("ENTERPRISE_CATEGORY_ID").IsRequired(true);
 
             builder.Property(x => x.ReportPeriodId)
-           .HasColumnType("INTEGER")
+           .HasColumnType("INT")
            .HasColumnName("REPORT_PERIOD_ID").IsRequired(true);
 
+            builder.Property(x => x.WorkshopId)
+           .HasColumnType("INT")
+           .HasColumnName("WORKSHOP_ID").IsRequired(true);
+
             builder.Property(x => x.CNPJ)
-            .HasColumnType("VARCHAR")
-            .HasColumnName("CNPJ").HasMaxLength(30);
+            .HasColumnType("VARCHAR(100)")
+            .HasColumnName("CNPJ");
 
             builder.Property(x => x.Name)
-            .HasColumnType("VARCHAR")
-            .HasColumnName("NAME").HasMaxLength(50);
+            .HasColumnType("VARCHAR(100)")
+            .HasColumnName("NAME");
 
             builder.Property(x => x.Email)
-            .HasColumnType("VARCHAR")
-            .HasColumnName("EMAIL").HasMaxLength(50);
+            .HasColumnType("VARCHAR(100)")
+            .HasColumnName("EMAIL");
 
             builder.Property(x => x.Mobile)
-           .HasColumnType("VARCHAR")
-           .HasColumnName("MOBILE").HasMaxLength(50);
+           .HasColumnType("VARCHAR(100)")
+           .HasColumnName("MOBILE");
 
             builder.Property(x => x.Site)
-           .HasColumnType("VARCHAR")
-           .HasColumnName("SITE").HasMaxLength(50);
+           .HasColumnType("VARCHAR(100)")
+           .HasColumnName("SITE");
 
             builder.Property(x => x.Progress)
            .HasColumnType("FLOAT")
@@ -77,21 +76,6 @@ namespace LGPD_MDE.Mapping
             .HasColumnType("DATE")
             .HasColumnName("MATURITY_DATE");
 
-            builder.HasOne(y => y.Question)
-           .WithMany()
-           .HasForeignKey(t => t.QuestionId);
-
-            builder.HasOne(y => y.Field)
-           .WithMany()
-           .HasForeignKey(t => t.FieldId);
-
-            builder.HasOne(y => y.EnterpriseCategory)
-           .WithMany()
-           .HasForeignKey(t => t.EnterpriseCategoryId);
-
-            builder.HasOne(y => y.ReportPeriod)
-           .WithMany()
-           .HasForeignKey(t => t.ReportPeriodId);
         }
 
     }

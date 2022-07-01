@@ -55,18 +55,12 @@ namespace LGPD_MDE.Migrations
                         .HasColumnName("EMAIL");
 
                     b.Property<int>("EnterpriseCategoryId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("ENTERPRISE_CATEGORY_ID");
 
-                    b.Property<int?>("EnterpriseCategoryId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("FieldId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("FIELD_ID");
-
-                    b.Property<int?>("FieldId1")
-                        .HasColumnType("int");
 
                     b.Property<float>("Maturity")
                         .HasColumnType("FLOAT")
@@ -101,22 +95,16 @@ namespace LGPD_MDE.Migrations
                         .HasColumnName("PROGRESS");
 
                     b.Property<int>("QuestionId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("QUESTION_ID");
-
-                    b.Property<int?>("QuestionId1")
-                        .HasColumnType("int");
 
                     b.Property<DateTime>("RegistrationDate")
                         .HasColumnType("DATE")
                         .HasColumnName("REGISTRATION_DATE");
 
                     b.Property<int>("ReportPeriodId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("REPORT_PERIOD_ID");
-
-                    b.Property<int?>("ReportPeriodId1")
-                        .HasColumnType("int");
 
                     b.Property<string>("Site")
                         .IsRequired()
@@ -125,25 +113,18 @@ namespace LGPD_MDE.Migrations
                         .HasColumnName("SITE");
 
                     b.Property<int>("WorkshopId")
-                        .HasColumnType("int");
+                        .HasColumnType("INT")
+                        .HasColumnName("WORKSHOP_ID");
 
                     b.HasKey("Id");
 
                     b.HasIndex("EnterpriseCategoryId");
 
-                    b.HasIndex("EnterpriseCategoryId1");
-
                     b.HasIndex("FieldId");
-
-                    b.HasIndex("FieldId1");
 
                     b.HasIndex("QuestionId");
 
-                    b.HasIndex("QuestionId1");
-
                     b.HasIndex("ReportPeriodId");
-
-                    b.HasIndex("ReportPeriodId1");
 
                     b.HasIndex("WorkshopId");
 
@@ -165,6 +146,31 @@ namespace LGPD_MDE.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("ENTERPRISE_CATEGORY", (string)null);
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Exceptions", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<DateTime>("Date")
+                        .HasColumnType("DATETIME")
+                        .HasColumnName("DATE");
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(1100)")
+                        .HasColumnName("DESCRICAO");
+
+                    b.Property<string>("Message")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(500)")
+                        .HasColumnName("MESSAGE");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("EXCEPTIONS", (string)null);
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Field", b =>
@@ -226,15 +232,12 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Action")
                         .IsRequired()
-                        .HasColumnType("VARCHAR")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("ACTION");
 
                     b.Property<int>("AreaId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("AREA_ID");
-
-                    b.Property<int?>("AreaId1")
-                        .HasColumnType("int");
 
                     b.Property<string>("Effect")
                         .IsRequired()
@@ -243,32 +246,23 @@ namespace LGPD_MDE.Migrations
                         .HasColumnName("EFFECT");
 
                     b.Property<int>("ImpactId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("IMPACT_ID");
 
-                    b.Property<int?>("ImpactId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("ProbabilityId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("PROBABILITY_ID");
 
-                    b.Property<int?>("ProbabilityId1")
-                        .HasColumnType("int");
-
                     b.Property<int>("QuestionCategoryId")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("QUESTION_CATEGORY_ID");
-
-                    b.Property<int?>("QuestionCategoryId1")
-                        .HasColumnType("int");
 
                     b.Property<ulong>("RepliedStatus")
                         .HasColumnType("BIT")
                         .HasColumnName("REPLIED_STATUS");
 
                     b.Property<int>("Reply")
-                        .HasColumnType("INTEGER")
+                        .HasColumnType("INT")
                         .HasColumnName("REPLY");
 
                     b.Property<ulong>("SuitableStatus")
@@ -285,19 +279,11 @@ namespace LGPD_MDE.Migrations
 
                     b.HasIndex("AreaId");
 
-                    b.HasIndex("AreaId1");
-
                     b.HasIndex("ImpactId");
-
-                    b.HasIndex("ImpactId1");
 
                     b.HasIndex("ProbabilityId");
 
-                    b.HasIndex("ProbabilityId1");
-
                     b.HasIndex("QuestionCategoryId");
-
-                    b.HasIndex("QuestionCategoryId1");
 
                     b.ToTable("QUESTION", (string)null);
                 });
@@ -412,13 +398,12 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<DateTime>("Date")
                         .HasMaxLength(100)
-                        .HasColumnType("DATE")
+                        .HasColumnType("DATETIME")
                         .HasColumnName("DATE");
 
                     b.Property<string>("MeetingLink")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("MEETING_LINK");
 
                     b.HasKey("Id");
@@ -429,44 +414,28 @@ namespace LGPD_MDE.Migrations
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Enterprise", b =>
                 {
                     b.HasOne("LGPD_MDE.Entities.Generated.EnterpriseCategory", "EnterpriseCategory")
-                        .WithMany()
+                        .WithMany("Enterprise")
                         .HasForeignKey("EnterpriseCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.EnterpriseCategory", null)
-                        .WithMany("Enterprise")
-                        .HasForeignKey("EnterpriseCategoryId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.Field", "Field")
-                        .WithMany()
+                        .WithMany("Enterprise")
                         .HasForeignKey("FieldId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.Field", null)
-                        .WithMany("Enterprise")
-                        .HasForeignKey("FieldId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.Question", "Question")
-                        .WithMany()
+                        .WithMany("Enterprise")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.Question", null)
-                        .WithMany("Enterprise")
-                        .HasForeignKey("QuestionId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.ReportPeriod", "ReportPeriod")
-                        .WithMany()
+                        .WithMany("Enterprise")
                         .HasForeignKey("ReportPeriodId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("LGPD_MDE.Entities.Generated.ReportPeriod", null)
-                        .WithMany("Enterprise")
-                        .HasForeignKey("ReportPeriodId1");
 
                     b.HasOne("LGPD_MDE.Entities.Generated.Workshop", "Workshop")
                         .WithMany("Enterprise")
@@ -488,44 +457,28 @@ namespace LGPD_MDE.Migrations
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Question", b =>
                 {
                     b.HasOne("LGPD_MDE.Entities.Generated.Area", "Area")
-                        .WithMany()
+                        .WithMany("Question")
                         .HasForeignKey("AreaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.Area", null)
-                        .WithMany("Question")
-                        .HasForeignKey("AreaId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.Impact", "Impact")
-                        .WithMany()
+                        .WithMany("Question")
                         .HasForeignKey("ImpactId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.Impact", null)
-                        .WithMany("Question")
-                        .HasForeignKey("ImpactId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.Probability", "Probability")
-                        .WithMany()
+                        .WithMany("Question")
                         .HasForeignKey("ProbabilityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("LGPD_MDE.Entities.Generated.Probability", null)
-                        .WithMany("Question")
-                        .HasForeignKey("ProbabilityId1");
-
                     b.HasOne("LGPD_MDE.Entities.Generated.QuestionCategory", "QuestionCategory")
-                        .WithMany()
+                        .WithMany("Question")
                         .HasForeignKey("QuestionCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.HasOne("LGPD_MDE.Entities.Generated.QuestionCategory", null)
-                        .WithMany("Question")
-                        .HasForeignKey("QuestionCategoryId1");
 
                     b.Navigation("Area");
 

@@ -1,11 +1,7 @@
-﻿using LGPD_BLL.Infra.Services.Interfaces;
+﻿
 using LGPD_BLL.Services;
+using LGPD_BLL_Infra.Services.Interfaces;
 using Microsoft.Extensions.DependencyInjection;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace LGPD_IoC
 {
@@ -13,7 +9,16 @@ namespace LGPD_IoC
     {
         public static IServiceCollection AddService(this IServiceCollection services)
         {
-            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IWorkshopService, WorkshopService>();
+            services.AddScoped<IExceptionService, ExceptionService>();
+            services.AddScoped<IEnterpriseService, EnterpriseService>();
+            services.AddScoped<IFieldService, FieldService>();
+            services.AddScoped<IEnterpriseCategoryService, EnterpriseCategoryService>();
+            services.AddScoped<IReportPeriodService, ReportPeriodService>();
+            services.AddScoped<IAreaService, AreaService>();
+            services.AddScoped<IQuestionCategoryService, QuestionCategoryService>();
+            services.AddScoped<IImpactService, ImpactService>();
+
 
             return services;
         }
