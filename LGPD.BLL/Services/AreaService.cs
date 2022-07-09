@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetAreaDTO> GetById(int id)
         {
-            var area = _mapper.Map<Area, GetAreaDTO>(await _repositoryArea.ObterPorId(id));
+            var area = _mapper.Map<Area, GetAreaDTO>(await _repositoryArea.GetById(id));
 
             if (area == null)
                 throw new ArgumentException("Area Não Existe");
@@ -39,12 +39,12 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<AreaDTO, Area>(dto);
 
-            await _repositoryArea.Adicionar(entidade);
+            await _repositoryArea.Add(entidade);
         }
 
         public async Task Update(UpdateAreaDTO area)
         {
-            var areaDB = await _repositoryArea.ObterPorId(area.Id);
+            var areaDB = await _repositoryArea.GetById(area.Id);
 
             if (areaDB == null)
             {
@@ -53,19 +53,19 @@ namespace LGPD_BLL.Services
 
             areaDB.Areas = area.Areas;
 
-            await _repositoryArea.Atualizar(areaDB);
+            await _repositoryArea.Update(areaDB);
         }
 
         public async Task Delete(int id)
         {
-            var areaDB = await _repositoryArea.ObterPorId(id);
+            var areaDB = await _repositoryArea.GetById(id);
 
             if (areaDB == null)
             {
                 throw new ArgumentException("Area Não Existe");
             }
 
-            await _repositoryArea.Remover(areaDB);
+            await _repositoryArea.Remove(areaDB);
 
         }
 

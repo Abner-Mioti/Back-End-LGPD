@@ -10,10 +10,10 @@ namespace LGPD_BLL.Services
 {
     public class QuestionCategoryService : IQuestionCategoryService
     {
-        private readonly IQuestionCategoryRepositoy _repositoryQuestionCategory;
+        private readonly IQuestionCategoryRepository _repositoryQuestionCategory;
         private readonly IMapper _mapper;
 
-        public QuestionCategoryService(IQuestionCategoryRepositoy repositoryQuestionCategory,
+        public QuestionCategoryService(IQuestionCategoryRepository repositoryQuestionCategory,
             IMapper mapper)
         {
             _repositoryQuestionCategory = repositoryQuestionCategory;
@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetQuestionCategoryDTO> GetById(int id)
         {
-            var quest = _mapper.Map<QuestionCategory, GetQuestionCategoryDTO>(await _repositoryQuestionCategory.ObterPorId(id));
+            var quest = _mapper.Map<QuestionCategory, GetQuestionCategoryDTO>(await _repositoryQuestionCategory.GetById(id));
 
             if (quest == null)
                 throw new ArgumentException("Question Category Não Existe");
@@ -39,12 +39,12 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<QuestionCategoryDTO, QuestionCategory>(dto);
 
-            await _repositoryQuestionCategory.Adicionar(entidade);
+            await _repositoryQuestionCategory.Add(entidade);
         }
 
         public async Task Update(UpdateQuestionCategoryDTO quest)
         {
-            var questDB = await _repositoryQuestionCategory.ObterPorId(quest.Id);
+            var questDB = await _repositoryQuestionCategory.GetById(quest.Id);
 
             if (questDB == null)
             {
@@ -53,19 +53,19 @@ namespace LGPD_BLL.Services
 
             questDB.Category = quest.Category;
 
-            await _repositoryQuestionCategory.Atualizar(questDB);
+            await _repositoryQuestionCategory.Update(questDB);
         }
 
         public async Task Delete(int id)
         {
-            var workshopDB = await _repositoryQuestionCategory.ObterPorId(id);
+            var questDB = await _repositoryQuestionCategory.GetById(id);
 
-            if (workshopDB == null)
+            if (questDB == null)
             {
-                throw new ArgumentException("Question Category  Não Existe");
+                throw new ArgumentException("Question Category Não Existe");
             }
 
-            await _repositoryQuestionCategory.Remover(workshopDB);
+            await _repositoryQuestionCategory.Remove(questDB);
 
         }
 

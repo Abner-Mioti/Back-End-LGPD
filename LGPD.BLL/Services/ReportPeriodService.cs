@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetReportPeriodDTO> GetById(int id)
         {
-            var report = _mapper.Map<ReportPeriod, GetReportPeriodDTO>(await _repositoryReportPeriod.ObterPorId(id));
+            var report = _mapper.Map<ReportPeriod, GetReportPeriodDTO>(await _repositoryReportPeriod.GetById(id));
 
             if (report == null)
                 throw new ArgumentException("Report Period Não Existe");
@@ -39,12 +39,12 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<ReportPeriodDTO, ReportPeriod>(dto);
 
-            await _repositoryReportPeriod.Adicionar(entidade);
+            await _repositoryReportPeriod.Add(entidade);
         }
 
         public async Task Update(UpdateReportPeriodDTO reportPerid)
         {
-            var reportPeridDB = await _repositoryReportPeriod.ObterPorId(reportPerid.Id);
+            var reportPeridDB = await _repositoryReportPeriod.GetById(reportPerid.Id);
 
             if (reportPeridDB == null)
             {
@@ -53,19 +53,19 @@ namespace LGPD_BLL.Services
 
             reportPeridDB.Period = reportPerid.Period;
 
-            await _repositoryReportPeriod.Atualizar(reportPeridDB);
+            await _repositoryReportPeriod.Update(reportPeridDB);
         }
 
         public async Task Delete(int id)
         {
-            var reportPeridDB = await _repositoryReportPeriod.ObterPorId(id);
+            var reportPeridDB = await _repositoryReportPeriod.GetById(id);
 
             if (reportPeridDB == null)
             {
                 throw new ArgumentException("Report Period Não Existe");
             }
 
-            await _repositoryReportPeriod.Remover(reportPeridDB);
+            await _repositoryReportPeriod.Remove(reportPeridDB);
 
         }
 

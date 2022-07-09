@@ -11,17 +11,16 @@ namespace LGPD_IoC
             services.AddScoped<IUsuarioRepository, UsuarioRepository>();
             services.AddScoped<IExceptionRepository, ExceptionRepository>();
             services.AddScoped<IWorkshopRepository, WorkshopRepository>();
-            services.AddScoped<IEnterpriseRepository, EnterpriseRepository>();
+            services.AddScoped<ICompanyRepository, CompanyRepository>();
             services.AddScoped<IFieldRepository, FieldRepository>();
-            services.AddScoped<IEnterpriseCategoryRepository, EnterpriseCategoryRepository>();
+            services.AddScoped<ICompanyCategoryRepository, CompanyCategoryRepository>();
             services.AddScoped<IReportPeriodRepository, ReportPeriodRepository>();
             services.AddScoped<IAreaRepository, AreaRepository>();
-            services.AddScoped<IQuestionCategoryRepositoy, QuestionCategoryRepositoy>();
+            services.AddScoped<IQuestionCategoryRepository, QuestionCategoryRepository>();
             services.AddScoped<IImpactRepository, ImpactRepository>();
-
-
-            
-
+            services.AddScoped<IProbabilityRepository, ProbabilityRepository>();
+            services.AddScoped<IQuestionRepository, QuestionRepository>();
+            services.AddScoped<IRiskRepository, RiskRepository>();
 
             return services;
         }

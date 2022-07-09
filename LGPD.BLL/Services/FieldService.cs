@@ -27,10 +27,10 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetFieldDTO> GetById(int id)
         {
-            var field = _mapper.Map<Field, GetFieldDTO>(await _repositoryField.ObterPorId(id));
+            var field = _mapper.Map<Field, GetFieldDTO>(await _repositoryField.GetById(id));
 
             if (field == null)
-                throw new ArgumentException("Workshop Não Existe");
+                throw new ArgumentException("Field Não Existe");
 
             return field;
         }
@@ -39,33 +39,33 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<FieldDTO, Field>(dto);
 
-            await _repositoryField.Adicionar(entidade);
+            await _repositoryField.Add(entidade);
         }
 
         public async Task Update(UpdateFieldDTO field)
         {
-            var fieldDB = await _repositoryField.ObterPorId(field.Id);
-
-            if (fieldDB == null)
-            {
-                throw new ArgumentException("Workshop Não Existe");
-            }
-
-            fieldDB.Fields = field.Fields;
-
-            await _repositoryField.Atualizar(fieldDB);
-        }
-
-        public async Task Delete(int id)
-        {
-            var fieldDB = await _repositoryField.ObterPorId(id);
+            var fieldDB = await _repositoryField.GetById(field.Id);
 
             if (fieldDB == null)
             {
                 throw new ArgumentException("Field Não Existe");
             }
 
-            await _repositoryField.Remover(fieldDB);
+            fieldDB.Fields = field.Fields;
+
+            await _repositoryField.Update(fieldDB);
+        }
+
+        public async Task Delete(int id)
+        {
+            var fieldDB = await _repositoryField.GetById(id);
+
+            if (fieldDB == null)
+            {
+                throw new ArgumentException("Field Não Existe");
+            }
+
+            await _repositoryField.Remove(fieldDB);
 
         }
 

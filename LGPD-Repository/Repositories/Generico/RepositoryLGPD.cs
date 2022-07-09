@@ -24,7 +24,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidade">Entidade relacionada a tabela.</param>
         /// <returns>Numero de linhas afetadas</returns>
-        public Task<int> Adicionar(TEntity entidade)
+        public Task<int> Add(TEntity entidade)
         {
             _ctx.Set<TEntity>().Add(entidade);
             return _ctx.SaveChangesAsync();
@@ -35,7 +35,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidades">Lista de entidades a serem adicionadas</param>
         /// <returns>Número de entidades adicionadas no banco.</returns>
-        public Task<int> AdicionarTodos(IEnumerable<TEntity> entidades)
+        public Task<int> AddAll(IEnumerable<TEntity> entidades)
         {
             _ctx.Set<TEntity>().AddRange(entidades);
             return _ctx.SaveChangesAsync();
@@ -46,7 +46,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="id">Chave primária ID.</param>
         /// <returns>Entidade correspondente.</returns>
-        public Task<TEntity> ObterPorId(int id)
+        public Task<TEntity> GetById(int id)
         {
             return Task.Run(() => _ctx.Set<TEntity>().Find(id));
         }
@@ -57,7 +57,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidade">Entidade a ser atualizada, necessário ter o ID primário preenchido.</param>
         /// <returns>Número de linhas afetadas no banco.</returns>
-        public Task<int> Atualizar(TEntity entidade)
+        public Task<int> Update(TEntity entidade)
         {
             _ctx.Set<TEntity>().Update(entidade);
             return _ctx.SaveChangesAsync();
@@ -68,7 +68,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidades">Lista de Entidade a serem atualizadas, necessário ter ID primário preenchido.</param>
         /// <returns>Número de linhas afetadas no banco.</returns>
-        public Task<int> AtualizarTodos(IEnumerable<TEntity> entidades)
+        public Task<int> UpdateAll(IEnumerable<TEntity> entidades)
         {
             _ctx.Set<TEntity>().UpdateRange(entidades);
             return _ctx.SaveChangesAsync();
@@ -79,7 +79,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidade">Entidade a ser removida do banco, necessário ter o ID primário preenchido.</param>
         /// <returns>Número de linhas afetadas no banco.</returns>
-        public Task<int> Remover(TEntity entidade)
+        public Task<int> Remove(TEntity entidade)
         {
             _ctx.Set<TEntity>().Remove(entidade);
             return _ctx.SaveChangesAsync();
@@ -99,7 +99,7 @@ namespace LGPD_Repository.Repositories.Generico
         /// </summary>
         /// <param name="entidades">Todas as entidades a serem deletadas, necessário ter o ID primário preenchido.</param>
         /// <returns>Número de linhas afetadas</returns>
-        public Task<int> RemoverTodos(IEnumerable<TEntity> entidades)
+        public Task<int> RemoveAll(IEnumerable<TEntity> entidades)
         {
             _ctx.Set<TEntity>().RemoveRange(entidades);
             return _ctx.SaveChangesAsync();

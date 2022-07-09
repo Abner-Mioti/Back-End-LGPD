@@ -24,9 +24,9 @@ namespace LGPD_MDE.Entities
             modelBuilder.ApplyConfiguration(new QuestionCategoryMap());
             modelBuilder.ApplyConfiguration(new ImpactMap());
             modelBuilder.ApplyConfiguration(new ProbabilityMap());
-            modelBuilder.ApplyConfiguration(new EnterpriseMap());
+            modelBuilder.ApplyConfiguration(new CompanyMap());
             modelBuilder.ApplyConfiguration(new FieldMap());
-            modelBuilder.ApplyConfiguration(new EnterpriseCategoryMap());
+            modelBuilder.ApplyConfiguration(new CompanyCategoryMap());
             modelBuilder.ApplyConfiguration(new ReportPeriodMap());
             modelBuilder.ApplyConfiguration(new ExceptionsMap());
 
@@ -42,9 +42,9 @@ namespace LGPD_MDE.Entities
         public DbSet<QuestionCategory> QuestionCategory { get; set; }
         public DbSet<Impact> Impact { get; set; }
         public DbSet<Probability> Probability { get; set; }
-        public DbSet<Enterprise> Enterprise { get; set; }
+        public DbSet<Company> Company { get; set; }
         public DbSet<Field> Field { get; set; }
-        public DbSet<EnterpriseCategory> EnterpriseCategory { get; set; }
+        public DbSet<CompanyCategory> CompanyCategory { get; set; }
         public DbSet<ReportPeriod> ReportPeriod { get; set; }
 
         public DbSet<Exceptions> Exceptions { get; set; }

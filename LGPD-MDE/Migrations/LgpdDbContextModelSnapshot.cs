@@ -27,8 +27,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Areas")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("AREAS");
 
                     b.HasKey("Id");
@@ -36,7 +35,7 @@ namespace LGPD_MDE.Migrations
                     b.ToTable("AREA", (string)null);
                 });
 
-            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Enterprise", b =>
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Company", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -44,19 +43,17 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("CNPJ")
                         .IsRequired()
-                        .HasMaxLength(30)
-                        .HasColumnType("VARCHAR(30)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("CNPJ");
+
+                    b.Property<int>("CompanyCategoryId")
+                        .HasColumnType("INT")
+                        .HasColumnName("COMPANY_CATEGORY_ID");
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("VARCHAR(50)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("EMAIL");
-
-                    b.Property<int>("EnterpriseCategoryId")
-                        .HasColumnType("INT")
-                        .HasColumnName("ENTERPRISE_CATEGORY_ID");
 
                     b.Property<int>("FieldId")
                         .HasColumnType("INT")
@@ -72,14 +69,12 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Mobile")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("VARCHAR(50)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("MOBILE");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("VARCHAR(50)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("NAME");
 
                     b.Property<DateTime>("ProgrectionStartDate")
@@ -108,8 +103,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Site")
                         .IsRequired()
-                        .HasMaxLength(50)
-                        .HasColumnType("VARCHAR(50)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("SITE");
 
                     b.Property<int>("WorkshopId")
@@ -118,7 +112,7 @@ namespace LGPD_MDE.Migrations
 
                     b.HasKey("Id");
 
-                    b.HasIndex("EnterpriseCategoryId");
+                    b.HasIndex("CompanyCategoryId");
 
                     b.HasIndex("FieldId");
 
@@ -128,10 +122,10 @@ namespace LGPD_MDE.Migrations
 
                     b.HasIndex("WorkshopId");
 
-                    b.ToTable("ENTERPRISE", (string)null);
+                    b.ToTable("COMPANY", (string)null);
                 });
 
-            modelBuilder.Entity("LGPD_MDE.Entities.Generated.EnterpriseCategory", b =>
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.CompanyCategory", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -139,13 +133,12 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Category")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("CATEGORY");
 
                     b.HasKey("Id");
 
-                    b.ToTable("ENTERPRISE_CATEGORY", (string)null);
+                    b.ToTable("COMPANY_CATEGORY", (string)null);
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Exceptions", b =>
@@ -181,8 +174,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Fields")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("FIELDS");
 
                     b.HasKey("Id");
@@ -198,8 +190,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Impacts")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("IMPACTS");
 
                     b.HasKey("Id");
@@ -215,8 +206,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Probabilitys")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("PROBABILITYS");
 
                     b.HasKey("Id");
@@ -241,7 +231,6 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Effect")
                         .IsRequired()
-                        .HasMaxLength(100)
                         .HasColumnType("VARCHAR(100)")
                         .HasColumnName("EFFECT");
 
@@ -296,7 +285,6 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Category")
                         .IsRequired()
-                        .HasMaxLength(100)
                         .HasColumnType("VARCHAR(100)")
                         .HasColumnName("CATEGORY");
 
@@ -313,8 +301,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Period")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("PERIOD");
 
                     b.HasKey("Id");
@@ -330,8 +317,7 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Risks")
                         .IsRequired()
-                        .HasMaxLength(150)
-                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnType("VARCHAR(100)")
                         .HasColumnName("RISKS");
 
                     b.HasKey("Id");
@@ -347,42 +333,36 @@ namespace LGPD_MDE.Migrations
 
                     b.Property<string>("Email")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("VARCHAR(100)")
+                        .HasColumnType("VARCHAR(150)")
                         .HasColumnName("EMAIL");
-
-                    b.Property<string>("Function")
-                        .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("VARCHAR(100)")
-                        .HasColumnName("FUNCTION");
 
                     b.Property<ulong>("IsActive")
                         .HasColumnType("BIT")
                         .HasColumnName("IS_ACTIVE");
 
+                    b.Property<string>("JobTitle")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(150)")
+                        .HasColumnName("JOB_TITLE");
+
                     b.Property<string>("Mobile")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("VARCHAR(100)")
+                        .HasColumnType("VARCHAR(150)")
                         .HasColumnName("MOBILE");
 
                     b.Property<string>("Name")
                         .IsRequired()
-                        .HasMaxLength(150)
                         .HasColumnType("VARCHAR(150)")
                         .HasColumnName("NAME");
 
                     b.Property<string>("Password")
                         .IsRequired()
-                        .HasMaxLength(60)
                         .HasColumnType("VARCHAR(60)")
                         .HasColumnName("PASSWORD");
 
                     b.Property<string>("User")
                         .IsRequired()
-                        .HasMaxLength(100)
-                        .HasColumnType("VARCHAR(100)")
+                        .HasColumnType("VARCHAR(150)")
                         .HasColumnName("USER");
 
                     b.HasKey("Id");
@@ -397,7 +377,6 @@ namespace LGPD_MDE.Migrations
                         .HasColumnType("int");
 
                     b.Property<DateTime>("Date")
-                        .HasMaxLength(100)
                         .HasColumnType("DATETIME")
                         .HasColumnName("DATE");
 
@@ -411,11 +390,11 @@ namespace LGPD_MDE.Migrations
                     b.ToTable("WORKSHOP", (string)null);
                 });
 
-            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Enterprise", b =>
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Company", b =>
                 {
-                    b.HasOne("LGPD_MDE.Entities.Generated.EnterpriseCategory", "EnterpriseCategory")
+                    b.HasOne("LGPD_MDE.Entities.Generated.CompanyCategory", "EnterpriseCategory")
                         .WithMany("Enterprise")
-                        .HasForeignKey("EnterpriseCategoryId")
+                        .HasForeignKey("CompanyCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
@@ -494,7 +473,7 @@ namespace LGPD_MDE.Migrations
                     b.Navigation("Question");
                 });
 
-            modelBuilder.Entity("LGPD_MDE.Entities.Generated.EnterpriseCategory", b =>
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.CompanyCategory", b =>
                 {
                     b.Navigation("Enterprise");
                 });

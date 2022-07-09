@@ -11,15 +11,20 @@ namespace LGPD_IoC
         {
             services.AddScoped<IWorkshopService, WorkshopService>();
             services.AddScoped<IExceptionService, ExceptionService>();
-            services.AddScoped<IEnterpriseService, EnterpriseService>();
+            services.AddScoped<ICompanyService, CompanyService>();
             services.AddScoped<IFieldService, FieldService>();
-            services.AddScoped<IEnterpriseCategoryService, EnterpriseCategoryService>();
+            services.AddScoped<ICompanyCategoryService, CompanyCategoryService>();
             services.AddScoped<IReportPeriodService, ReportPeriodService>();
             services.AddScoped<IAreaService, AreaService>();
             services.AddScoped<IQuestionCategoryService, QuestionCategoryService>();
             services.AddScoped<IImpactService, ImpactService>();
+            services.AddScoped<IProbabilityService, ProbabilityService>();
+            services.AddScoped<IQuestionService, QuestionService>();
+            services.AddScoped<IRiskService, RiskService>();
+            services.AddScoped<IUsuarioService, UsuarioService>();
 
 
+            
             return services;
         }
 

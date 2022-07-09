@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
             exDto.Message = ex.Message;
             if (exDto.Message.Length > 100)
                 exDto.Message = exDto.Message.Substring(0, 100);
-            await _exceptionRepository.Adicionar(_mapper.Map<ExceptionsDTO, Exceptions>(exDto));
+            await _exceptionRepository.Add(_mapper.Map<ExceptionsDTO, Exceptions>(exDto));
         }
 
         public Task Log(ArgumentException ex)

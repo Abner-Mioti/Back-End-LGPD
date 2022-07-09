@@ -16,15 +16,15 @@ namespace LGPD_BLL.AutoMapping
             CreateMap<WorkshopDTO, Workshop>().ReverseMap();
             CreateMap<UpdateWorkshopDTO, Workshop>().ReverseMap();
             CreateMap<GetWorkshopDTO, Workshop>().ReverseMap();
-            CreateMap<EnterpriseDTO, Enterprise>().ReverseMap();
-            CreateMap<GetEnterpriseDTO, Enterprise>().ReverseMap();
-            CreateMap<UpdateEnterpriseDTO, Enterprise>().ReverseMap();
+            CreateMap<CompanyDTO, Company>().ReverseMap();
+            CreateMap<GetCompanyDTO, Company>().ReverseMap();
+            CreateMap<UpdateCompanyDTO, Company>().ReverseMap();
             CreateMap<GetFieldDTO, Field>().ReverseMap();
             CreateMap<FieldDTO, Field>().ReverseMap();
             CreateMap<UpdateFieldDTO, Field>().ReverseMap();
-            CreateMap<GetEnterpriseCategoryDTO, EnterpriseCategory>().ReverseMap();
-            CreateMap<EnterpriseCategoryDTO, EnterpriseCategory>().ReverseMap();
-            CreateMap<GetEnterpriseCategoryDTO, EnterpriseCategory>().ReverseMap();
+            CreateMap<GetCompanyCategoryDTO, CompanyCategory>().ReverseMap();
+            CreateMap<CompanyCategoryDTO, CompanyCategory>().ReverseMap();
+            CreateMap<GetCompanyCategoryDTO, CompanyCategory>().ReverseMap();
             CreateMap<ReportPeriodDTO, ReportPeriod>().ReverseMap();
             CreateMap<GetReportPeriodDTO, ReportPeriod>().ReverseMap();
             CreateMap<UpdateReportPeriodDTO, ReportPeriod>().ReverseMap();
@@ -37,14 +37,18 @@ namespace LGPD_BLL.AutoMapping
             CreateMap<ImpactDTO, Impact>().ReverseMap();
             CreateMap<UpdateImpactDTO, Impact>().ReverseMap();
             CreateMap<GetImpactDTO, Impact>().ReverseMap();
-
-
-            
-
-
-
-
-
+            CreateMap<GetProbabilityDTO, Probability>().ReverseMap();
+            CreateMap<UpdateProbabilityDTO, Probability>().ReverseMap();
+            CreateMap<ProbabilityDTO, Probability>().ReverseMap();
+            CreateMap<QuestionDTO, Question>().ReverseMap();
+            CreateMap<GetQuestionDTO, Question>().ReverseMap();
+            CreateMap<UpdateQuestionDTO, Question>().ReverseMap();
+            CreateMap<UpdateRiskDTO, Risk>().ReverseMap();
+            CreateMap<GetRiskDTO, Risk>().ReverseMap();
+            CreateMap<RiskDTO, Risk>().ReverseMap();
+            CreateMap<UsuarioDTO, Usuario>().ReverseMap();
+            CreateMap<GetUsuarioDTO, Usuario>().ReverseMap();
+            CreateMap<UpdateUsuarioDTO, Usuario>().ReverseMap();
 
         }
     }

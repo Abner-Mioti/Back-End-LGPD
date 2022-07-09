@@ -6,7 +6,7 @@
         public string MeetingLink { get; set; }
         public DateTime Date { get; set; }
 
-        public virtual ICollection<Enterprise> Enterprise { get; set; }
+        public virtual ICollection<Company> Enterprise { get; set; }
 
     }
 }

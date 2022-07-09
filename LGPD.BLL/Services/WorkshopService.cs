@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetWorkshopDTO> GetById(int id)
         {
-            var work = _mapper.Map<Workshop, GetWorkshopDTO>(await _repositoryWorkshop.ObterPorId(id));
+            var work = _mapper.Map<Workshop, GetWorkshopDTO>(await _repositoryWorkshop.GetById(id));
 
             if (work == null)
                 throw new ArgumentException("Workshop Não Existe");
@@ -39,12 +39,12 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<WorkshopDTO, Workshop>(dto);
 
-            await _repositoryWorkshop.Adicionar(entidade);
+            await _repositoryWorkshop.Add(entidade);
         }
 
         public async Task Update(UpdateWorkshopDTO workshop)
         {
-            var workshopDB = await _repositoryWorkshop.ObterPorId(workshop.Id);
+            var workshopDB = await _repositoryWorkshop.GetById(workshop.Id);
 
             if (workshopDB == null)
             {
@@ -54,19 +54,19 @@ namespace LGPD_BLL.Services
             workshopDB.MeetingLink = workshop.MeetingLink;
             workshopDB.Date = workshop.Date;
 
-            await _repositoryWorkshop.Atualizar(workshopDB);
+            await _repositoryWorkshop.Update(workshopDB);
         }
 
         public async Task Delete(int id)
         {
-            var workshopDB = await _repositoryWorkshop.ObterPorId(id);
+            var workshopDB = await _repositoryWorkshop.GetById(id);
 
             if (workshopDB == null)
             {
                 throw new ArgumentException("Workshop Não Existe");
             }
 
-            await _repositoryWorkshop.Remover(workshopDB);
+            await _repositoryWorkshop.Remove(workshopDB);
 
         }
     }

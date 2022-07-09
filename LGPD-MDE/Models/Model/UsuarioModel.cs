@@ -2,7 +2,7 @@
 
 namespace LGPD_MDE.Models.Model
 {
-    public class UsuarioModel 
+    public class UsuarioModel : UsuarioDTO
     {
     }
 }

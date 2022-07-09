@@ -27,7 +27,7 @@ namespace LGPD_BLL.Services
         }
         public async Task<GetImpactDTO> GetById(int id)
         {
-            var impact = _mapper.Map<Impact, GetImpactDTO>(await _repositoryImpact.ObterPorId(id));
+            var impact = _mapper.Map<Impact, GetImpactDTO>(await _repositoryImpact.GetById(id));
 
             if (impact == null)
                 throw new ArgumentException("Impact Não Existe");
@@ -39,12 +39,12 @@ namespace LGPD_BLL.Services
 
             var entidade = _mapper.Map<ImpactDTO, Impact>(dto);
 
-            await _repositoryImpact.Adicionar(entidade);
+            await _repositoryImpact.Add(entidade);
         }
 
         public async Task Update(UpdateImpactDTO impact)
         {
-            var impactDB = await _repositoryImpact.ObterPorId(impact.Id);
+            var impactDB = await _repositoryImpact.GetById(impact.Id);
 
             if (impactDB == null)
             {
@@ -53,19 +53,19 @@ namespace LGPD_BLL.Services
 
             impactDB.Impacts = impact.Impacts;
 
-            await _repositoryImpact.Atualizar(impactDB);
+            await _repositoryImpact.Update(impactDB);
         }
 
         public async Task Delete(int id)
         {
-            var impactDB = await _repositoryImpact.ObterPorId(id);
+            var impactDB = await _repositoryImpact.GetById(id);
 
             if (impactDB == null)
             {
                 throw new ArgumentException("Impact Não Existe");
             }
 
-            await _repositoryImpact.Remover(impactDB);
+            await _repositoryImpact.Remove(impactDB);
 
         }
 

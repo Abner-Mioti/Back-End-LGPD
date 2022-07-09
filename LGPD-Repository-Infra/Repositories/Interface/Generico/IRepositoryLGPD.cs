@@ -1,21 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace LGPD_Repository_Infra.Repositories.Interface.Generico
+﻿namespace LGPD_Repository_Infra.Repositories.Interface.Generico
 {
     public interface IRepositoryLGPD<TEntity> where TEntity : class
     {
-        Task<TEntity> ObterPorId(int id);
-        Task<int> Adicionar(TEntity entidade);
-        Task<int> AdicionarTodos(IEnumerable<TEntity> entidade);
-        Task<int> Remover(TEntity entidade);
-        Task<int> RemoverTodos(IEnumerable<TEntity> entidades);
-        Task<int> Atualizar(TEntity entidade);
+        Task<TEntity> GetById(int id);
+        Task<int> Add(TEntity entidade);
+        Task<int> AddAll(IEnumerable<TEntity> entidade);
+        Task<int> Remove(TEntity entidade);
+        Task<int> RemoveAll(IEnumerable<TEntity> entidades);
+        Task<int> Update(TEntity entidade);
         Task<IEnumerable<TEntity>> GetAll();
-        Task<int> AtualizarTodos(IEnumerable<TEntity> entidades);
+        Task<int> UpdateAll(IEnumerable<TEntity> entidades);
 
     }
 }

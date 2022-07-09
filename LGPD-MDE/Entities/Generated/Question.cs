@@ -18,7 +18,7 @@
         public virtual QuestionCategory QuestionCategory { get; set; }
         public virtual Impact Impact { get; set; }
         public virtual Probability Probability { get; set; }
-        public virtual ICollection<Enterprise> Enterprise { get; set; }
+        public virtual ICollection<Company> Enterprise { get; set; }
 
 
 
