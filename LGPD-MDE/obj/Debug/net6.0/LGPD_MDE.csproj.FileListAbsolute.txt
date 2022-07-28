@@ -1,0 +1,28 @@
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\refint\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-MDE\obj\Debug\net6.0\ref\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\refint\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\LGPD_MDE.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-MDE\obj\Debug\net6.0\ref\LGPD_MDE.dll

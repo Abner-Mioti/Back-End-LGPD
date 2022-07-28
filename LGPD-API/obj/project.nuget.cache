@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K2QOqfkxV40gVXrf0/YAE2hjedmmZxdVpZTZQZbYcM7z77x/zxoyPIr74XUPicH4RBqdL6bg39DvfoGNxycyMg==",
+  "dgSpecHash": "z4HuSMvhZrtlMX9rnddffScShm5wDwzG08hTutsFTaA4obc0qoyltIGtIs7q3STLeOJUyPiJ78K8l8yn/pl5vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-API\\LGPD_API.csproj",
+  "projectFilePath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-API\\LGPD_API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\abner.mioti\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\abner.mioti\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

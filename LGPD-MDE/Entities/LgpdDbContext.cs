@@ -29,12 +29,15 @@ namespace LGPD_MDE.Entities
             modelBuilder.ApplyConfiguration(new CompanyCategoryMap());
             modelBuilder.ApplyConfiguration(new ReportPeriodMap());
             modelBuilder.ApplyConfiguration(new ExceptionsMap());
+            modelBuilder.ApplyConfiguration(new ObservationMap());
+            modelBuilder.ApplyConfiguration(new StepMap());
+
 
             base.OnModelCreating(modelBuilder);
         }
         #region DbSets
 
-        public DbSet<Usuario> Usuario { get; set; }
+        public DbSet<User> Usuario { get; set; }
         public DbSet<Risk> Risk { get; set; }
         public DbSet<Area> Area { get; set; }
         public DbSet<Workshop> Workshop { get; set; }
@@ -46,9 +49,9 @@ namespace LGPD_MDE.Entities
         public DbSet<Field> Field { get; set; }
         public DbSet<CompanyCategory> CompanyCategory { get; set; }
         public DbSet<ReportPeriod> ReportPeriod { get; set; }
-
+        public DbSet<Observation> Observation { get; set; }
         public DbSet<Exceptions> Exceptions { get; set; }
-
+        public DbSet<Step> Step { get; set; }
 
         #endregion
 

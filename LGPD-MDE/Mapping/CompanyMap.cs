@@ -32,6 +32,10 @@ namespace LGPD_MDE.Mapping
            .HasColumnType("INT")
            .HasColumnName("WORKSHOP_ID").IsRequired(true);
 
+            builder.Property(x => x.StepId)
+           .HasColumnType("INT")
+           .HasColumnName("STEP_ID").IsRequired(true);
+
             builder.Property(x => x.CNPJ)
             .HasColumnType("VARCHAR(100)")
             .HasColumnName("CNPJ");

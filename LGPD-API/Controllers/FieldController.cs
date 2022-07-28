@@ -129,8 +129,5 @@ namespace LGPD_API.Controllers
             }
         }
 
-
-
-
     }
 }

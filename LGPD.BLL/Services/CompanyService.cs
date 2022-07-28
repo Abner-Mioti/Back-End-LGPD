@@ -52,6 +52,7 @@ namespace LGPD_BLL.Services
                 throw new ArgumentException("Workshop Não Existe");
             }
 
+            entepriseDB.StepId = enteprise.StepId;
             entepriseDB.QuestionId = enteprise.QuestionId;
             entepriseDB.FieldId = enteprise.FieldId;
             entepriseDB.CompanyCategoryId = enteprise.CompanyCategoryId;

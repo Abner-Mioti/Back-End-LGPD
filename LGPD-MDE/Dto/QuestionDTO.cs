@@ -3,6 +3,8 @@
     public class QuestionDTO
     {
         public int AreaId { get; set; }
+        public int ObservationId { get; set; }
+        public int RiskId { get; set; }
         public int QuestionCategoryId { get; set; }
         public int ImpactId { get; set; }
         public int ProbabilityId { get; set; }

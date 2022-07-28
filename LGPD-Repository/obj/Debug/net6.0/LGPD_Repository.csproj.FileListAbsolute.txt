@@ -1,0 +1,46 @@
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\refint\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-Repository\obj\Debug\net6.0\ref\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\refint\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\LGPD_Repository.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-Repository\obj\Debug\net6.0\ref\LGPD_Repository.dll

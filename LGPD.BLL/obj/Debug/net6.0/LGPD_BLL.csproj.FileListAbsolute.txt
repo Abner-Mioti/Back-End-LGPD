@@ -1,0 +1,38 @@
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\refint\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD.BLL\obj\Debug\net6.0\ref\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\refint\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD.BLL\obj\Debug\net6.0\ref\LGPD_BLL.dll

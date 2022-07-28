@@ -21,10 +21,10 @@ namespace LGPD_IoC
             services.AddScoped<IProbabilityService, ProbabilityService>();
             services.AddScoped<IQuestionService, QuestionService>();
             services.AddScoped<IRiskService, RiskService>();
-            services.AddScoped<IUsuarioService, UsuarioService>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddScoped<IObservationService, ObservationService>();
+            services.AddScoped<IStepService, StepService>();
 
-
-            
             return services;
         }
 

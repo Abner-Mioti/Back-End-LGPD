@@ -1,0 +1,414 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj",
+        "projectName": "LGPD_BLL_Infra",
+        "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj",
+        "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.mioti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj",
+        "projectName": "LGPD_MDE",
+        "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj",
+        "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.mioti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Proxies": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Caching.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Pomelo.EntityFrameworkCore.MySql": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj",
+        "projectName": "LGPD_Repository-Infra",
+        "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj",
+        "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.mioti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj",
+        "projectName": "LGPD_Repository",
+        "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj",
+        "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.mioti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-MDE\\LGPD_MDE.csproj"
+              },
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj"
+              },
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\LGPD_BLL.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\LGPD_BLL.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.5, )"
+            },
+            "MySql.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\LGPD_BLL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\LGPD_BLL.csproj",
+        "projectName": "LGPD_BLL",
+        "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\LGPD_BLL.csproj",
+        "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD.BLL\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\abner.mioti\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-BLL-Infra\\LGPD_BLL_Infra.csproj"
+              },
+              "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj": {
+                "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository-Infra\\LGPD_Repository-Infra.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "Microsoft.AspNetCore.Http": {
+              "target": "Package",
+              "version": "[2.2.2, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "System.IdentityModel.Tokens.Jwt": {
+              "target": "Package",
+              "version": "[6.18.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

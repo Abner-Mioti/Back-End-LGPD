@@ -42,7 +42,7 @@ namespace LGPD_API.Controllers
             catch (Exception ex)
             {
                 await _exceptionService.Log(ex);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao obter Enterprise");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Erro ao obter Company");
             }
         }
 
@@ -62,7 +62,7 @@ namespace LGPD_API.Controllers
             catch (Exception ex)
             {
                 await _exceptionService.Log(ex);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao obter todos as Enterprises");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao obter todos as Company");
             }
         }
 
@@ -73,7 +73,7 @@ namespace LGPD_API.Controllers
             {
                 CompanyDTO enterprise = _mapper.Map<CompanyModel, CompanyDTO>(cadastroEnterprise);
                 await _enterpriseService.Register(enterprise);
-                return await Task.FromResult(Ok("Enterprise cadastrada com sucesso! "));
+                return await Task.FromResult(Ok("Company cadastrada com sucesso! "));
             }
             catch (ArgumentException ex)
             {
@@ -83,7 +83,7 @@ namespace LGPD_API.Controllers
             catch (Exception ex)
             {
                 await _exceptionService.Log(ex);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao cadastrar Enterprise");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao cadastrar Company");
             }
         }
         [HttpPut("Update")]
@@ -94,7 +94,7 @@ namespace LGPD_API.Controllers
             {
                 UpdateCompanyDTO atualizarEnterprise = _mapper.Map<UpdateCompanyModel, UpdateCompanyDTO>(enterprise);
                 await _enterpriseService.Update(atualizarEnterprise);
-                return await Task.FromResult(Ok("Enterprise Alterado com sucesso! "));
+                return await Task.FromResult(Ok("Company Alterado com sucesso! "));
             }
             catch (ArgumentException ex)
             {
@@ -104,7 +104,7 @@ namespace LGPD_API.Controllers
             catch (Exception ex)
             {
                 await _exceptionService.Log(ex);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao atualizar Enterprise");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao atualizar Company");
             }
         }
 
@@ -114,7 +114,7 @@ namespace LGPD_API.Controllers
             try
             {
                 await _enterpriseService.Delete(id);
-                return await Task.FromResult(Ok("Enterprise Deletado com sucesso! "));
+                return await Task.FromResult(Ok("Company Deletado com sucesso! "));
             }
             catch (ArgumentException ex)
             {
@@ -124,7 +124,7 @@ namespace LGPD_API.Controllers
             catch (Exception ex)
             {
                 await _exceptionService.Log(ex);
-                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao deletar Enterprise");
+                return StatusCode(StatusCodes.Status500InternalServerError, "Ocorreu um erro ao deletar Company");
             }
         }
     }

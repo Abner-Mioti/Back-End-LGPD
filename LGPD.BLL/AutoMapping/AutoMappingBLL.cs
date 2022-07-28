@@ -46,9 +46,16 @@ namespace LGPD_BLL.AutoMapping
             CreateMap<UpdateRiskDTO, Risk>().ReverseMap();
             CreateMap<GetRiskDTO, Risk>().ReverseMap();
             CreateMap<RiskDTO, Risk>().ReverseMap();
-            CreateMap<UsuarioDTO, Usuario>().ReverseMap();
-            CreateMap<GetUsuarioDTO, Usuario>().ReverseMap();
-            CreateMap<UpdateUsuarioDTO, Usuario>().ReverseMap();
+            CreateMap<UserDTO, User>().ReverseMap();
+            CreateMap<GetUserDTO, User>().ReverseMap();
+            CreateMap<UpdateUserDTO, User>().ReverseMap();
+            CreateMap<ObservationDTO, Observation>().ReverseMap();
+            CreateMap<GetObservationDTO, Observation>().ReverseMap();
+            CreateMap<UpdateObservationDTO, Observation>().ReverseMap();
+            CreateMap<UpdateStepDTO, Step>().ReverseMap();
+            CreateMap<GetStepDTO, Step>().ReverseMap();
+            CreateMap<StepDTO, Step>().ReverseMap();
+
 
         }
     }

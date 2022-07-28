@@ -106,6 +106,10 @@ namespace LGPD_MDE.Migrations
                         .HasColumnType("VARCHAR(100)")
                         .HasColumnName("SITE");
 
+                    b.Property<int>("StepId")
+                        .HasColumnType("INT")
+                        .HasColumnName("STEP_ID");
+
                     b.Property<int>("WorkshopId")
                         .HasColumnType("INT")
                         .HasColumnName("WORKSHOP_ID");
@@ -119,6 +123,8 @@ namespace LGPD_MDE.Migrations
                     b.HasIndex("QuestionId");
 
                     b.HasIndex("ReportPeriodId");
+
+                    b.HasIndex("StepId");
 
                     b.HasIndex("WorkshopId");
 
@@ -198,6 +204,22 @@ namespace LGPD_MDE.Migrations
                     b.ToTable("IMPACT", (string)null);
                 });
 
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Observation", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<string>("Observations")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(100)")
+                        .HasColumnName("OBSERVATIONS");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("OBSERVATION", (string)null);
+                });
+
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Probability", b =>
                 {
                     b.Property<int>("Id")
@@ -238,6 +260,10 @@ namespace LGPD_MDE.Migrations
                         .HasColumnType("INT")
                         .HasColumnName("IMPACT_ID");
 
+                    b.Property<int>("ObservationId")
+                        .HasColumnType("INT")
+                        .HasColumnName("OBSERVATION_ID");
+
                     b.Property<int>("ProbabilityId")
                         .HasColumnType("INT")
                         .HasColumnName("PROBABILITY_ID");
@@ -253,6 +279,10 @@ namespace LGPD_MDE.Migrations
                     b.Property<int>("Reply")
                         .HasColumnType("INT")
                         .HasColumnName("REPLY");
+
+                    b.Property<int>("RiskId")
+                        .HasColumnType("INT")
+                        .HasColumnName("RISK_ID");
 
                     b.Property<ulong>("SuitableStatus")
                         .HasColumnType("BIT")
@@ -270,9 +300,13 @@ namespace LGPD_MDE.Migrations
 
                     b.HasIndex("ImpactId");
 
+                    b.HasIndex("ObservationId");
+
                     b.HasIndex("ProbabilityId");
 
                     b.HasIndex("QuestionCategoryId");
+
+                    b.HasIndex("RiskId");
 
                     b.ToTable("QUESTION", (string)null);
                 });
@@ -325,11 +359,55 @@ namespace LGPD_MDE.Migrations
                     b.ToTable("RISK", (string)null);
                 });
 
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Step", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    b.Property<ulong>("Active")
+                        .HasColumnType("BIT")
+                        .HasColumnName("ACTIVE");
+
+                    b.Property<DateTime>("CloseDate")
+                        .HasColumnType("DATE")
+                        .HasColumnName("CLOSE_DATE");
+
+                    b.Property<DateTime>("EndDate")
+                        .HasColumnType("DATE")
+                        .HasColumnName("END_DATE");
+
+                    b.Property<int>("Itens")
+                        .HasColumnType("INT")
+                        .HasColumnName("ITENS");
+
+                    b.Property<string>("Steps")
+                        .IsRequired()
+                        .HasColumnType("VARCHAR(100)")
+                        .HasColumnName("STEPS");
+
+                    b.Property<int>("Value")
+                        .HasColumnType("INT")
+                        .HasColumnName("VALUE");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("STEP", (string)null);
+                });
+
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Usuario", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
+
+                    b.Property<int>("AreaId")
+                        .HasColumnType("INT")
+                        .HasColumnName("AREA_ID");
+
+                    b.Property<int>("CompanyId")
+                        .HasColumnType("INT")
+                        .HasColumnName("COMPANY_ID");
 
                     b.Property<string>("Email")
                         .IsRequired()
@@ -355,6 +433,10 @@ namespace LGPD_MDE.Migrations
                         .HasColumnType("VARCHAR(150)")
                         .HasColumnName("NAME");
 
+                    b.Property<string>("OAB")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
                     b.Property<string>("Password")
                         .IsRequired()
                         .HasColumnType("VARCHAR(60)")
@@ -366,6 +448,10 @@ namespace LGPD_MDE.Migrations
                         .HasColumnName("USER");
 
                     b.HasKey("Id");
+
+                    b.HasIndex("AreaId");
+
+                    b.HasIndex("CompanyId");
 
                     b.ToTable("USUARIO", (string)null);
                 });
@@ -393,31 +479,37 @@ namespace LGPD_MDE.Migrations
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Company", b =>
                 {
                     b.HasOne("LGPD_MDE.Entities.Generated.CompanyCategory", "EnterpriseCategory")
-                        .WithMany("Enterprise")
+                        .WithMany("Company")
                         .HasForeignKey("CompanyCategoryId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LGPD_MDE.Entities.Generated.Field", "Field")
-                        .WithMany("Enterprise")
+                        .WithMany("Company")
                         .HasForeignKey("FieldId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LGPD_MDE.Entities.Generated.Question", "Question")
-                        .WithMany("Enterprise")
+                        .WithMany("Company")
                         .HasForeignKey("QuestionId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("LGPD_MDE.Entities.Generated.ReportPeriod", "ReportPeriod")
-                        .WithMany("Enterprise")
+                        .WithMany("Company")
                         .HasForeignKey("ReportPeriodId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("LGPD_MDE.Entities.Generated.Step", "Step")
+                        .WithMany("Company")
+                        .HasForeignKey("StepId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("LGPD_MDE.Entities.Generated.Workshop", "Workshop")
-                        .WithMany("Enterprise")
+                        .WithMany("Company")
                         .HasForeignKey("WorkshopId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -429,6 +521,8 @@ namespace LGPD_MDE.Migrations
                     b.Navigation("Question");
 
                     b.Navigation("ReportPeriod");
+
+                    b.Navigation("Step");
 
                     b.Navigation("Workshop");
                 });
@@ -447,6 +541,12 @@ namespace LGPD_MDE.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("LGPD_MDE.Entities.Generated.Observation", "Observation")
+                        .WithMany("Question")
+                        .HasForeignKey("ObservationId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("LGPD_MDE.Entities.Generated.Probability", "Probability")
                         .WithMany("Question")
                         .HasForeignKey("ProbabilityId")
@@ -459,31 +559,72 @@ namespace LGPD_MDE.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("LGPD_MDE.Entities.Generated.Risk", "Risk")
+                        .WithMany("Question")
+                        .HasForeignKey("RiskId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.Navigation("Area");
 
                     b.Navigation("Impact");
 
+                    b.Navigation("Observation");
+
                     b.Navigation("Probability");
 
                     b.Navigation("QuestionCategory");
+
+                    b.Navigation("Risk");
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Usuario", b =>
+                {
+                    b.HasOne("LGPD_MDE.Entities.Generated.Area", "Area")
+                        .WithMany("Usuario")
+                        .HasForeignKey("AreaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("LGPD_MDE.Entities.Generated.Company", "Company")
+                        .WithMany("Usuario")
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Area");
+
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Area", b =>
                 {
                     b.Navigation("Question");
+
+                    b.Navigation("Usuario");
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Company", b =>
+                {
+                    b.Navigation("Usuario");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.CompanyCategory", b =>
                 {
-                    b.Navigation("Enterprise");
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Field", b =>
                 {
-                    b.Navigation("Enterprise");
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Impact", b =>
+                {
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Observation", b =>
                 {
                     b.Navigation("Question");
                 });
@@ -495,7 +636,7 @@ namespace LGPD_MDE.Migrations
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Question", b =>
                 {
-                    b.Navigation("Enterprise");
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.QuestionCategory", b =>
@@ -505,12 +646,22 @@ namespace LGPD_MDE.Migrations
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.ReportPeriod", b =>
                 {
-                    b.Navigation("Enterprise");
+                    b.Navigation("Company");
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Risk", b =>
+                {
+                    b.Navigation("Question");
+                });
+
+            modelBuilder.Entity("LGPD_MDE.Entities.Generated.Step", b =>
+                {
+                    b.Navigation("Company");
                 });
 
             modelBuilder.Entity("LGPD_MDE.Entities.Generated.Workshop", b =>
                 {
-                    b.Navigation("Enterprise");
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

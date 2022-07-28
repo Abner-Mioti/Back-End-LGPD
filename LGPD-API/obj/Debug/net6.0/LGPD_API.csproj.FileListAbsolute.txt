@@ -1,0 +1,216 @@
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\appsettings.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_API.exe
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_API.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_API.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_API.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AI.DependencyCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AI.EventCounterCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AI.WindowsServer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Caching.SqlServer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_IoC.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_IoC.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\scopedcss\bundle\LGPD_API.styles.css
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\refint\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\LGPD_API.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API\LGPD-API\obj\Debug\net6.0\ref\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\appsettings.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_API.exe
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_API.deps.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_API.runtimeconfig.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_API.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\BouncyCastle.Crypto.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Castle.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Google.Protobuf.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Humanizer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\K4os.Compression.LZ4.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\K4os.Compression.LZ4.Streams.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\K4os.Hash.xxHash.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.ApplicationInsights.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.ApplicationInsights.AspNetCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AI.DependencyCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AI.EventCounterCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AI.WindowsServer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.UI.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Proxies.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Caching.SqlServer.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Configuration.EnvironmentVariables.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Extensions.Logging.ApplicationInsights.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\MySql.Data.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Ubiety.Dns.Core.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\ZstdNet.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\MySql.EntityFrameworkCore.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\MySqlConnector.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Pomelo.EntityFrameworkCore.MySql.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Configuration.ConfigurationManager.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Security.Permissions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\System.Windows.Extensions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Diagnostics.PerformanceCounter.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_BLL.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_BLL_Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_IoC.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_MDE.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_Repository-Infra.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_Repository.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_IoC.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_MDE.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_BLL.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_BLL_Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_Repository.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\bin\Debug\net6.0\LGPD_Repository-Infra.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.AssemblyReference.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.AssemblyInfoInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.AssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.CoreCompileInputs.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\scopedcss\bundle\LGPD_API.styles.css
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.csproj.CopyComplete
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\refint\LGPD_API.dll
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.pdb
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\LGPD_API.genruntimeconfig.cache
+C:\Users\abner.mioti\3D Objects\LGPD API 2.0\LGPD-API\obj\Debug\net6.0\ref\LGPD_API.dll

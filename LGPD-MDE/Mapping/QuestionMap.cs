@@ -16,6 +16,14 @@ namespace LGPD_MDE.Mapping
             .HasColumnType("INT")
             .HasColumnName("AREA_ID").IsRequired(true);
 
+            builder.Property(x => x.ObservationId)
+            .HasColumnType("INT")
+            .HasColumnName("OBSERVATION_ID").IsRequired(true);
+
+            builder.Property(x => x.RiskId)
+            .HasColumnType("INT")
+            .HasColumnName("RISK_ID").IsRequired(true);
+
             builder.Property(x => x.QuestionCategoryId)
             .HasColumnType("INT")
             .HasColumnName("QUESTION_CATEGORY_ID").IsRequired(true);

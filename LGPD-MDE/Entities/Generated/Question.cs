@@ -4,6 +4,8 @@
     {
         public int Id { get; set; }
         public int AreaId { get; set; }
+        public int ObservationId { get; set; }
+        public int RiskId { get; set; }
         public int QuestionCategoryId { get; set; }
         public int ImpactId { get; set; }
         public int ProbabilityId { get; set; }
@@ -18,7 +20,9 @@
         public virtual QuestionCategory QuestionCategory { get; set; }
         public virtual Impact Impact { get; set; }
         public virtual Probability Probability { get; set; }
-        public virtual ICollection<Company> Enterprise { get; set; }
+        public virtual Observation Observation { get; set; }
+        public virtual Risk Risk { get; set; }
+        public virtual ICollection<Company> Company { get; set; }
 
 
 

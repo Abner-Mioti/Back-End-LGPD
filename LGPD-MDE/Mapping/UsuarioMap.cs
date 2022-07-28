@@ -5,13 +5,21 @@ using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
 namespace LGPD.MDE.Mappings
 {
-    public class UsuarioMap : IEntityTypeConfiguration<Usuario>
+    public class UsuarioMap : IEntityTypeConfiguration<User>
     {
-        public void Configure(EntityTypeBuilder<Usuario> builder)
+        public void Configure(EntityTypeBuilder<User> builder)
         {
-            builder.ToTable("USUARIO");
+            builder.ToTable("USER");
 
             builder.HasKey(x => x.Id);
+
+            builder.Property(x => x.CompanyId)
+           .HasColumnType("INT")
+           .HasColumnName("COMPANY_ID").IsRequired(true);
+
+            builder.Property(x => x.AreaId)
+           .HasColumnType("INT")
+           .HasColumnName("AREA_ID").IsRequired(true);
 
             builder.Property(x => x.Name)
             .HasColumnType("VARCHAR(150)")
@@ -29,7 +37,7 @@ namespace LGPD.MDE.Mappings
             .HasColumnType("VARCHAR(150)")
             .HasColumnName("MOBILE");
 
-            builder.Property(x => x.User)
+            builder.Property(x => x.Users)
            .HasColumnType("VARCHAR(150)")
            .HasColumnName("USER");
 

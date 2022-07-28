@@ -8,7 +8,7 @@ namespace LGPD_IoC
     {
         public static IServiceCollection AddRepositories(this IServiceCollection services)
         {
-            services.AddScoped<IUsuarioRepository, UsuarioRepository>();
+            services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IExceptionRepository, ExceptionRepository>();
             services.AddScoped<IWorkshopRepository, WorkshopRepository>();
             services.AddScoped<ICompanyRepository, CompanyRepository>();
@@ -21,6 +21,8 @@ namespace LGPD_IoC
             services.AddScoped<IProbabilityRepository, ProbabilityRepository>();
             services.AddScoped<IQuestionRepository, QuestionRepository>();
             services.AddScoped<IRiskRepository, RiskRepository>();
+            services.AddScoped<IObservationRepository, ObservationRepository>();
+            services.AddScoped<IStepRepository, StepRepository>();
 
             return services;
         }

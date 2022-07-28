@@ -49,12 +49,15 @@ namespace LGPD_API.AutoMapping
             CreateMap<UpdateRiskModel, UpdateRiskDTO>().ReverseMap();
             CreateMap<GetRiskModel, GetRiskDTO>().ReverseMap();
             CreateMap<RiskModel, RiskDTO>().ReverseMap();
-            CreateMap<UsuarioModel, UsuarioDTO>().ReverseMap();
-            CreateMap<GetUsuarioModel, GetUsuarioDTO>().ReverseMap();
-            CreateMap<UpdateUsuarioModel, UpdateUsuarioDTO>().ReverseMap();
-
-
-
+            CreateMap<UserModel, UserDTO>().ReverseMap();
+            CreateMap<GetUserModel, GetUserDTO>().ReverseMap();
+            CreateMap<UpdateUserModel, UpdateUserDTO>().ReverseMap();
+            CreateMap<UpdateObservationModel, UpdateObservationDTO>().ReverseMap();
+            CreateMap<GetObservationModel, GetObservationDTO>().ReverseMap();
+            CreateMap<ObservationModel, ObservationDTO>().ReverseMap();
+            CreateMap<StepModel, StepDTO>().ReverseMap();
+            CreateMap<UpdateStepModel, UpdateStepDTO>().ReverseMap();
+            CreateMap<GetStepModel, GetStepDTO>().ReverseMap();
 
         }
 

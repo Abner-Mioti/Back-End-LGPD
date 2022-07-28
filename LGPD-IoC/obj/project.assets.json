@@ -8349,11 +8349,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD_IoC.csproj",
+      "projectUniqueName": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-IoC\\LGPD_IoC.csproj",
       "projectName": "LGPD_IoC",
-      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\LGPD_IoC.csproj",
+      "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-IoC\\LGPD_IoC.csproj",
       "packagesPath": "C:\\Users\\abner.mioti\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-IoC\\obj\\",
+      "outputPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-IoC\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -8375,8 +8375,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD_Repository.csproj": {
-              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API\\LGPD-Repository\\LGPD_Repository.csproj"
+            "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj": {
+              "projectPath": "C:\\Users\\abner.mioti\\3D Objects\\LGPD API 2.0\\LGPD-Repository\\LGPD_Repository.csproj"
             }
           }
         }

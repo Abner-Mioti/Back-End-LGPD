@@ -52,6 +52,7 @@ namespace LGPD_BLL.Services
             }
 
             questDB.AreaId = quest.AreaId;
+            questDB.ObservationId = quest.ObservationId;
             questDB.QuestionCategoryId = quest.QuestionCategoryId;
             questDB.ImpactId = quest.ImpactId;
             questDB.ProbabilityId = quest.ProbabilityId;

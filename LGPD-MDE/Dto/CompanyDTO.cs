@@ -4,6 +4,7 @@
     {
         public int QuestionId { get; set; }
         public int FieldId { get; set; }
+        public int StepId { get; set; }
         public int CompanyCategoryId { get; set; }
         public int ReportPeriodId { get; set; }
         public int WorkshopId { get; set; }
